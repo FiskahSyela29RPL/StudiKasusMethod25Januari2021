@@ -2,8 +2,6 @@ import java.util.*;
 
 public class Nasabah {
     Scanner in = new Scanner(System.in);
-    private String rekening;
-    private String pin;
     protected int saldo;
     private int tahun;
     private double bunga;
@@ -62,15 +60,8 @@ public class Nasabah {
         }
     }
 
-    public String getPin() {
-        return pin;
-    }
-
     public int getSaldo() {
         return saldo;
     }
 
-    public String getRekening() {
-        return rekening;
-    }
 }
